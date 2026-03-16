@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup-rules>
+        <disallow domain="root" />
+        <disallow domain="file" />
+        <disallow domain="database" />
+        <disallow domain="sharedpref" />
+        <disallow domain="external" />
+    </cloud-backup-rules>
+    <device-transfer-rules>
+        <disallow domain="root" />
+        <disallow domain="file" />
+        <disallow domain="database" />
+        <disallow domain="sharedpref" />
+    </device-transfer-rules>
+</data-extraction-rules>
